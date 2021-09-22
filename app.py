@@ -1,3 +1,5 @@
+# inspired by: https://www.youtube.com/watch?v=1xtrIEwY_zY&t=2114s
+
 import streamlit as st 
 import pickle
 import pandas as pd 
@@ -21,7 +23,7 @@ def get_names(episode_name):
 
 st.title('Chopped Episodes Recommendations')
 
-option = st.selectbox('Find episodes similar to: ', chopped['episode_name'].values)
+option = st.selectbox('Find episodes similar to: ', str(chopped['episode_name'].values)
 
 if st.button('Recommend'):
 	for i in get_names(option):
