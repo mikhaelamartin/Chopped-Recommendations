@@ -19,6 +19,10 @@ Based off this [article](https://screenrant.com/chopped-best-episodes-imdb/) whi
 
 2. Interpret visualization pertaining to top 10 favorited episodes
 
+A majority of the most popular shows emphasized either the judges, familiar faces, or family. The viewers love the judges' personalities and interactions with each other which is why "Judges' Face-Off' and 'Chopped All-Stars: Judges are part of the pack. The audience also loves cooking shows in general which is why "Crunch Time" and "Chopped All-Stars: Food Network vs. Cooking Channel" are also fan faves. Lastly, the viewers are very sentimental beings which is why the first aired episode, "Ocotpus, Duck, Animal Crackers" and "It's a Sibling Thing" are the top two episodes.
+
+Our clusters somewhat capture this sentiment. Celebrity/Charity episodes 
+
 ![](https://github.com/mikhaelamartin/Chopped-Recommendations/blob/master/top10.png)
 
 Four of the top 10 episodes were grouped in the Celebs/Charity cluster. Viewers tend to favor familiar faces and big personalities. 
