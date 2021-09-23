@@ -121,28 +121,38 @@ $(document).ready(function () {
 </div>
 
 
-<div id="what-makes-a-tv-show-awesome" class="section level1">
-<h1>What Makes A TV Show Awesome?</h1>
-</div>
 <div id="searching-for-the-best-chopped-episodes-to-rerun" class="section level1">
 <h1>Searching for the Best Chopped Episodes to Rerun</h1>
-<div id="business-objectives" class="section level2">
-<h2>Business Objectives:</h2>
-<p>what do you want to do? Why do you want to do?</p>
-<p>Chopped is one of my favorite television shows. Although I haven’t watched every episode, somehow I have watched the same episode multiple times. But, not on purpose. Television shows have a tendency to rerun the same favorited episodes because they know what the people like to see.</p>
-<p>Using this dataset which contains information about the first 567 episodes and this article about the top 10 Chopped episodes according to imDb, I want to understand which types of episodes the people crave for.</p>
-<p>I will use clustering techniques to detect patterns and make recommendations on which episodes to rerun.</p>
+<div id="chopped-recommendation-engine" class="section level2">
+<h2><em>Chopped</em> Recommendation Engine</h2>
+<p>Author: Mikhaela Martin</p>
+<div id="introduction" class="section level3">
+<h3>Introduction</h3>
+<p>Chopped is one of my favorite television shows. I have yet to watch every episode, but I have watched the same episode multiple times. And not on purpose. Television networks rerun the same episodes because they know their audience enjoys them.</p>
 </div>
-<div id="data-objectives" class="section level2">
-<h2>Data Objectives:</h2>
-<p>classification, regression</p>
+<div id="business-objectives" class="section level3">
+<h3>Business Objectives:</h3>
+<p>Based off this <a href="https://screenrant.com/chopped-best-episodes-imdb/">article</a> which pinpoints the top 10 favorited Chopped episodes, I want to recommend 10 more episodes for The Food Network to rerun.</p>
 </div>
-<div id="methodology" class="section level2">
-<h2>Methodology</h2>
-<p>Data Cleaning: TFIDFVectorizor Exploratory Data Annalysis: Feature Engineering: Model Building:</p>
-<p>make recommendations based on similar items. not a two sided place</p>
+<div id="model-objective" class="section level3">
+<h3>Model Objective:</h3>
+<ul>
+<li>Recommend episodes similar to the top 10 favorited episodes</li>
+<li>Create a recommendation engine to recommend episodes based on user input</li>
+<li>Visualize and detect patterns on episodes</li>
+</ul>
+</div>
+<div id="methods" class="section level3">
+<h3>Methods</h3>
+<ul>
+<li>TFIDFVectorizor</li>
+<li>PCA</li>
+<li>KMeans</li>
+</ul>
+</div>
 <div id="chopped-dataset-attributes-and-descriptions" class="section level3">
 <h3>Chopped Dataset Attributes and Descriptions</h3>
+<p><a href="https://www.kaggle.com/jeffreybraun/chopped-10-years-of-episode-data">Kaggle Link</a> There are 567 episodes total included in the dataset. Here are the attributes:</p>
 <ul>
 <li><code>season</code></li>
 <li><code>season_episode</code></li>

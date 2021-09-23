@@ -1,37 +1,29 @@
-# What Makes A TV Show Awesome?
-
 # Searching for the Best Chopped Episodes to Rerun
 
-## Business Objectives:
-what do you want to do? Why do you want to do?
+## *Chopped* Recommendation Engine
+Author: Mikhaela Martin
 
-Chopped is one of my favorite television shows. Although I haven't watched every episode, somehow I have watched the same episode multiple times. But, not on purpose. Television shows have a tendency to rerun the same favorited episodes because they know what the people like to see.
+### Introduction
 
-Using this dataset which contains information about the first 567 episodes and this article about the top 10 Chopped episodes according to imDb, I want to understand which types of episodes the people crave for.
+Chopped is one of my favorite television shows. I have yet to watch every episode, but I have watched the same episode multiple times. And not on purpose. Television networks rerun the same episodes because they know their audience enjoys them. 
 
-I will use clustering techniques to detect patterns and make recommendations on which episodes to rerun.
+### Business Objectives:
 
-## Data Objectives:
-classification, regression
+Based off this [article](https://screenrant.com/chopped-best-episodes-imdb/) which pinpoints the top 10 favorited Chopped episodes, I want to recommend 10 more episodes for The Food Network to rerun.
 
-## Methodology
-Data Cleaning:
-Drop:
-TFIDFVectorizor:
-Conver to Time: episode_date
-Convert judges into one column with last names and 
+### Model Objective:
+- Recommend episodes similar to the top 10 favorited episodes
+- Create a recommendation engine to recommend episodes based on user input
+- Visualize and detect patterns on episodes
 
-judges, contestants, episode, food
-
-
-
-Exploratory Data Annalysis:
-Feature Engineering:
-Model Building:
-
-make recommendations based on similar items. not a two sided place
+### Methods
+- TFIDFVectorizor
+- PCA
+- KMeans
 
 ### Chopped Dataset Attributes and Descriptions 
+[Kaggle Link](https://www.kaggle.com/jeffreybraun/chopped-10-years-of-episode-data)
+There are 567 episodes total included in the dataset. Here are the attributes:
 
 - `season`
 - `season_episode`
