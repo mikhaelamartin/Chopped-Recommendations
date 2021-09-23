@@ -12,9 +12,34 @@ Chopped is one of my favorite television shows. I have yet to watch every episod
 Based off this [article](https://screenrant.com/chopped-best-episodes-imdb/) which pinpoints the top 10 favorited Chopped episodes, I want to recommend 10 more episodes for The Food Network to rerun.
 
 ### Model Objective:
-- Recommend episodes similar to the top 10 favorited episodes
-- Create a recommendation engine to recommend episodes based on user input
-- Visualize and detect patterns on episodes
+
+1. Visualize patterns across all episodes
+
+![](https://github.com/mikhaelamartin/Chopped-Recommendations/blob/master/images/PCA%20Plot.png)
+
+2. Interpret visualization pertaining to top 10 favorited episodes
+
+![](https://github.com/mikhaelamartin/Chopped-Recommendations/blob/master/top10.png)
+
+Four of the top 10 episodes were grouped in the Celebs/Charity cluster. Viewers tend to favor familiar faces and big personalities. 
+Four of the top 10 episodes were grouped in the NY cluster. Viewers tend to favor 
+
+Family-related episodes (Thanksgiving, Sibling Time)
+
+3. Recommend episodes similar to the top 10 favorited episodes
+
+Teen Tournament Series
+
+
+4. Create a recommendation engine to recommend episodes based on user input
+
+[Heroku website](https://choppedrecommendations.herokuapp.com/)
+
+### Heroku Website
+
+### Observations and Recommendations
+
+### 
 
 ### Methods
 - TFIDFVectorizor
